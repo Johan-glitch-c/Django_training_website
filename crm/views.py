@@ -33,3 +33,5 @@ def thanks_page(request):
         return render(request, './thanks.html', {'name': name, 'phone': phone})
     else:
         return render(request, './thanks.html')
+
+

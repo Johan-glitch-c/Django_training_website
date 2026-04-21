@@ -24,6 +24,10 @@ class OrderAdm(admin.ModelAdmin):
     #Поле класса комент
     inlines = [Comment,]
 
+
+
+
+
 admin.site.register(Order,OrderAdm)
 admin.site.register(StatusCrm)
 admin.site.register(CommentCrm)
